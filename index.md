@@ -13,5 +13,5 @@ Here's the link: [Analysis of Binary Isothermal VLE Data](https://radiant-shelf-
 # Lecture Notes
 ---
 
-### I'll be publishing my markdown notes in various subjects here:
-* [Stoichiometric Coefficients and Reaction Progress Variables](Introduction.html) 
+#### I'll be publishing my markdown notes in various subjects here:
+* [Stoichiometric Coefficients and Reaction Progress Variables](lectures/Introduction.html) 
