@@ -1,7 +1,7 @@
 # Projects
 ---
 
-#### A NEW web application made with Streamlit
+#### A web application made with Streamlit
 It's my collection of assorted projects in thermodynamics.
 * It scours for binary, isothermal vapor-liquid equilibrium data from [DDBST](http://www.ddbst.com/en/EED/VLE/VLEindex.php)
 * It demonstrates the use of various correlative models
