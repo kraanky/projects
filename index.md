@@ -7,7 +7,7 @@ It's my collection of assorted projects in thermodynamics.
 * It demonstrates the use of various correlative models
 * It plots McCabe-Thiele plots instantly
 
-Here's the link: [Analysis of Binary Isothermal VLE Data](https://radiant-shelf-97747.herokuapp.com)
+Here's the link: [Analysis of Binary Isothermal VLE Data](https://chem-engg-tools.herokuapp.com)
 
 
 # Lecture Notes
