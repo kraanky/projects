@@ -8,3 +8,7 @@ It's my collection of assorted projects in thermodynamics.
 * It plots McCabe-Thiele plots instantly
 
 Here's the link: [Analysis of Binary Isothermal VLE Data](https://chem-engg-tools.herokuapp.com) 
+
+#### A compilation of reactions along with the power law model 
+***Under Progress.*** Currently, 28 reactions are listed. 
+Here's the link: [Reaction Kinetics](https://blooming-forest-68817.herokuapp.com)
