@@ -1,3 +1,5 @@
 title: "Hello."
 description: "I'm a chemical engineer."
-theme: jekyll-theme-dinky
+theme: jekyll-theme-minimal
+github:
+  is_project_page: false
