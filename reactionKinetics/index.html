@@ -1,0 +1,103 @@
+<!Doctype HTML>
+<HTML>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta lang="en">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/contrib/mhchem.min.js"></script>
+        <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+  };
+        </script>
+        <title>Reaction Kinetics</title>
+    </head>
+    
+    <body>
+        
+        <div class="navbar">
+            <a href="https://kraanky.github.io/projects/"><ion-icon name="reorder-three" class="navbar-icon" target="_blank"></ion-icon></a>
+            <a href="https://github.com/kraanky"><ion-icon name="logo-github" class="navbar-icon"></ion-icon></a>
+        </div>
+        
+        <table>
+            <tr>
+                <td><ion-icon name="flask-outline" class="icon"></ion-icon></td>
+                <td><h1>Reaction Kinetics</h1></td>
+            </tr>
+        </table>
+        
+        <button type="button" class="collapse"><ion-icon name="radio-button-off-outline" class="arrow"></ion-icon><b>Zero Order Reactions</b></button>
+        
+        <div class="collapse-content">
+            <ol>
+                <li>Gas phase decomposition of ammonia on molybdenum $$\ce{2NH_3 ->[Mo] N_2 + 3H_2}$$</li>
+                <li>Decomposition of nitrous oxide in presence of a hot platinum surface $$\ce{N_2O ->[Pt][~800K] N_2 + 1/2 O_2}$$</li>
+                <li>Iodation of acetone in presence of $\ce{H+}$ $$\ce{CH_3COCH_3 + I_2_{(aq)} ->[H+] CH_3COCH_2I + HI_{(aq)}}$$</li>
+            </ol> 
+        </div>
+        
+        <button type="button" class="collapse"><ion-icon name="radio-button-off-outline" class="arrow"></ion-icon><b>First Order Reactions</b></button>
+        
+        <div class="collapse-content">
+            <ol>
+                <li>Hydrolysis of butyl chloride $$C_4H_9Cl + H_2O \rightarrow C_4H_9OH + HCl$$ $$r = k[C_4H_9Cl]$$</li>
+                <li>Dehydrogenation of ethane $$\ce{C_2H_6 -> C_2H_4 + H_2}$$ $$r = -k[C_2H_6]$$</li>
+                <li>Decomposition of nitrous chlorides $$\ce{\phi N=NCl -> \phi Cl + N_2}$$ $$r = -k[\phi N=NCl]$$</li>
+                <li>Acid hydrolysis of ethylene oxide to ethanediol $$\ce{H_2C(O)CH_2 + H_2O ->[H_2SO_4] HOCH_2CH_2OH}$$ $$r_{H_2C(O)CH_2} = -k[H_2C(O)CH_2]$$</li>
+                <li>Photolysis of acetone $$\ce{CH_3COCH_3 -> CH_2CO + CH_4}$$ $$r = -k[CH_3COCH_3]$$</li>
+                <li>Isomerization of n-butane $$\ce{nC_4H_10 <=> iC_4H_10}$$ $$r = -k[nC_4 - iC_4/K_C]$$ </li>
+                <li>Alkaline hydrolysis of t-butyl bromide $$(CH_3)_3CBr_{(aq)} + OH^{-}_{(aq)} \rightarrow (CH_3)_3COH_{(aq)} + Br^{-}_{(aq)}$$ $$r = -k[(CH_3)_3CBr]$$</li>
+                <li>Thermal decomposition of dinitrogen pentoxide $${2N_2O_5}_{(g)} \rightarrow {4NO_2}_{(g)} + {O_2}_{(g)}$$ $$r = -k[N_2O_5]$$</li>
+                <li>Rearrangement of vinyl allyl ether to allyl acetaldehyde $$\ce{CH_2=CH-O-CH_2-CH=CH_2 -> CH_2=CH-CH_2-CH_2-CHO}$$</li>
+            </ol> 
+        </div>
+        
+        <button type="button" class="collapse"><ion-icon name="radio-button-off-outline" class="arrow"></ion-icon><b>Secord Order Reactions</b></button>
+        
+        <div class="collapse-content">
+            <ol>
+                <li>Gas phase reaction between hydrogen and iodine $${H_2}_{(g)} + {I_2}_{(g)} \rightarrow 2HI_{(g)}$$ $$r = -k[H_2][I_2]$$</li>
+                <li>Gas phase decomposition of Hydrogen Iodide $$2HI_{(g)} \rightarrow {H_2}_{(g)} + {I_2}_{(g)}$$ $$r_{HI} = -k[HI]^{2}$$</li>
+                <li>Reaction of bromide cyanide with methylamine$$\ce{CNBr + CH_3NH_2 -> CH_3Br + NCNH_2}$$ $$r_{CNBr} = -k[CNBr][CH_3NH_2]$$</li>
+                <li>Amination of o-nitrochlorobenze $$\ce{o-NO_2C_6H_4Cl + 2NH_3 -> o-NH_2C_6H_4NH_2 + NH_4Cl}$$ $$r_{ONCB} = -k[ONCB][NH_3]$$</li>
+                <li>Ethyl acetate and butanol react to produce butyl acetate and ethanol $$\ce{\underset{A}{CH_3COOC_2H_5} + \underset{B}{C_4H_9OH} <=> \underset{C}{CH_3COOC_4H_9} + \underset{D}{C_2H_5OH}}$$ $$r_A = -k[C_AC_B-C_CC_D/K_C]$$</li>
+                <li>Reaction of peroxydisulfate ion with iodide ion in aqueous solution $${S_2O_8^{2-}}_{(aq)} + 3I^{-}_{(aq)} \rightarrow {2SO_4^{2-}}_{(aq)} + {I_3^{-}}_{(aq)}$$ $$r = -k[S_2O_8^{2-}][I^{-}]$$</li>
+                <li>Disproportionation reaction of hypochlorite ion $$3ClO^{-}_{(aq)} \rightarrow {ClO_3^{-}}_{(aq)} + 2Cl^{-}_{(aq)}$$ $$r = -k[ClO^{-}]^2$$</li>
+                <li>Reaction between formate ion and permanganate ion in aqueous solution $${3HCOO^{-}}_{(aq)} + {2MnO_4^{-}}_{(aq)} + {2H^{+}}_{(aq)} \rightarrow {2MnO_2}_{(s)} + {3HCO_3^{-}}_{(aq)} + {H_2O}_{(l)}$$ $$r = -k[MnO_4^{-}][HCOO^{-}]$$</li>
+                <li>Reaction between hypochlorite ion and bromide ion $${ClO^{-}}_{(aq)} + {Br^{-}}_{(aq)} \rightarrow {BrO^-}_{(aq)} + {Cl^-}_{(aq)}$$ $$r = -k[ClO^-][Br^-]$$</li>
+                <li>Synthesis of urea $$NH_4^+ + CNO^- \rightarrow {(NH_2)}_2CO$$ $$r = -k[NH_4^+][CNO^-]$$</li>
+            </ol> 
+        </div>
+        
+        <button type="button" class="collapse"><ion-icon name="radio-button-off-outline" class="arrow"></ion-icon><b>Fractional Order Reactions</b></button>
+        
+        <div class="collapse-content">
+            <ol>
+                <li>Formation of phosgene $$CO + Cl_2 \rightarrow COCl_2$$ $$r_{CO} = -k[Cl_2]^{1.5}[CO]$$</li>
+                <li>Gas phase thermal decomposition of ethanal $$\ce{CH_3CHO -> CH_4 + CO}$$ $$r_{CH_3CHO} = -k[CH_3CHO]^{\frac{3}{2}}$$</li>
+                <li>Chlorine-catalysed decomposition of ozone $$2O_3 \rightarrow 3O_2$$ $$r = -k[O_3]^{\frac{3}{2}}$$</li>
+            </ol> 
+        </div>
+    
+         <button type="button" class="collapse"><ion-icon name="radio-button-off-outline" class="arrow"></ion-icon><b>Higher Order Reactions</b></button>
+        
+        <div class="collapse-content">
+            <ol>
+                <li>Reaction of nitric oxide with chlorine (overall order of reaction is $3$) $$2NO + Cl_2 \rightarrow 2NOCl$$ $$r = -k[NO]^2[Cl_2]$$</li>
+                <li>Reaction of nitric oxide with oxygen (overall order of reaction is $3$) $$2NO + O_2 \rightarrow 2NO_2$$ $$r = -k[NO]^2[Cl_2]$$</li>
+                <li>Reaction between bromate ion and bromide ion in acidic medium (overall order of reaction is $4$)$${BrO_3^{-}}_{(aq)} + 5Br^{-}_{(aq)} + 6H^{+}_{(aq)} \rightarrow {3Br_2}_{(aq)} + {3H_2O}_{(l)}$$ $$r = -k[BrO_3^{-}][Br^{-}][H^{+}]^2$$</li>
+            </ol> 
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+    
+</HTML>

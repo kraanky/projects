@@ -1,0 +1,108 @@
+html {
+    background: #ffffff;
+    font-family: "Helvetica Neue", sans-serif, monospace;
+}
+
+body {
+    margin-top: 0;
+    margin-bottom: 36px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    color: #267CB9;
+    text-align: left;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.navbar a {
+    text-decoration: none;
+    background-color: transparent;
+    height: 2.5rem;
+}
+
+ion-icon {
+    color: black;
+}
+
+.navbar-icon:hover {
+    background-color: #d5e8f6;
+}
+
+.navbar-icon {
+    padding: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.icon {
+    padding: 0.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.collapse {
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    font-size: 21px;
+    text-align: left;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.arrow {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    resize: both;
+}
+
+.collapse:hover {
+    background-color: #d5e8f6;
+}
+
+.collapse:active {
+    background-color: transparent;
+}
+
+.collapse::after {
+    content: "";
+    float: left;
+    padding-top: 11px;
+    transform: scale(1);   
+}
+   
+.collapse b {
+    padding-left: 1.5rem;
+}
+.collapse-content {
+    overflow-x: auto;
+    color: black;
+    font-size: 0.9rem;
+    overflow: hidden;
+    display: none;
+    transition: max-height 0.3s;
+    position: relative;
+    padding: 1rem;
+}
+
+li {
+    list-style-position: inside;
+    list-style-type: decimal;
+    color: black;
+    overflow-x: auto;
+}
+
+
+
+
