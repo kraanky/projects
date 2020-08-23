@@ -1,4 +1,3 @@
-# Projects
 ---
 
 #### A web application made with Streamlit
