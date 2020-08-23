@@ -1,4 +1,3 @@
----
 
 #### A web application made with Streamlit
 It's my collection of assorted projects in thermodynamics.
